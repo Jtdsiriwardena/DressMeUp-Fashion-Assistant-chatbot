@@ -1,0 +1,158 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Good morning",
+        "Good evening",
+        "Hey"
+      ],
+      "responses": [
+        "Hallo!",
+        "Guten Morgen!",
+        "Guten Abend!",
+        "Hey, wie geht's?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Take care",
+        "Have a good day"
+      ],
+      "responses": [
+        "Auf Wiedersehen!",
+        "Tschüss!",
+        "Bis bald!",
+        "Hab einen schönen Tag!"
+      ]
+    },
+    {
+      "tag": "outfit_suggestion",
+      "patterns": [
+        "What should I wear for a casual summer day?",
+        "What should I wear to a formal event in winter?",
+        "Give me an outfit suggestion for a hot day.",
+        "Suggest me something to wear for a winter party.",
+        "What should I wear for a casual outing?",
+        "What’s a good outfit for a formal dinner?"
+      ],
+      "responses": [
+        "I can suggest an outfit for that! Please specify the occasion, season, and preference (comfortable/fashionable).",
+        "I will suggest you an outfit based on your occasion, season, and preferences."
+      ]
+    },
+    {
+      "tag": "casual_summer_outfit",
+      "patterns": [
+        "What should I wear for a casual summer day?",
+        "Give me a casual outfit suggestion for summer.",
+        "What can I wear for a relaxed summer outing?"
+      ],
+      "responses": [
+        "How about a loose t-shirt with shorts and sandals? It's perfect for a casual summer day!",
+        "A comfy tank top, high-waisted shorts, and trendy sneakers would make a stylish casual look for summer.",
+        "You could wear a light summer dress with sandals, perfect for a day out in the sun."
+      ]
+    },
+    {
+      "tag": "formal_winter_outfit",
+      "patterns": [
+        "What should I wear to a formal event in winter?",
+        "Suggest me an outfit for a formal winter evening.",
+        "What’s a good formal outfit for a cold day?"
+      ],
+      "responses": [
+        "A slim-fit dark suit with a wool coat and leather shoes would be perfect for a formal winter event.",
+        "Try a tailored blazer with a cashmere sweater underneath, paired with dark trousers and dress shoes.",
+        "A formal trench coat with a stylish suit underneath will keep you warm and look elegant."
+      ]
+    },
+    {
+      "tag": "winter_outfit",
+      "patterns": [
+        "What should I wear in winter?",
+        "Give me a winter outfit suggestion.",
+        "What should I wear for a winter day?"
+      ],
+      "responses": [
+        "A cozy sweater, jeans, and boots would be perfect for a cold day in winter.",
+        "A woolen coat, scarf, and gloves will keep you warm during the cold weather.",
+        "How about a down jacket, a wool sweater, and sturdy boots?"
+      ]
+    },
+    {
+      "tag": "summer_outfit",
+      "patterns": [
+        "What should I wear in summer?",
+        "Give me a summer outfit suggestion.",
+        "What should I wear for a hot day?"
+      ],
+      "responses": [
+        "A loose t-shirt with denim shorts and sandals will keep you comfortable in the summer heat.",
+        "Wear a breezy cotton dress with flip-flops, great for a sunny day.",
+        "How about a light button-up shirt and linen pants for a cool summer look?"
+      ]
+    },
+    {
+      "tag": "styling_tips",
+      "patterns": [
+        "How to style a white shirt?",
+        "Give me styling tips for a black dress.",
+        "What shoes go well with a suit?",
+        "How should I style a t-shirt?"
+      ],
+      "responses": [
+        "You can style a white shirt with a pair of jeans and sneakers for a casual look, or tuck it into a pencil skirt for something more formal.",
+        "A black dress can be styled with a leather jacket for an edgy look or with heels for a classy touch.",
+        "Pair a suit with dress shoes and a tie for a formal look, or opt for loafers for a slightly relaxed vibe.",
+        "A t-shirt can be styled with jeans for a casual day out or tucked into a skirt for a more fashionable look."
+      ]
+    },
+    {
+      "tag": "mix_and_match",
+      "patterns": [
+        "How can I mix and match my clothes?",
+        "Give me tips for mixing outfits.",
+        "What goes well with a striped shirt?",
+        "How to pair colors in outfits?"
+      ],
+      "responses": [
+        "You can mix and match by pairing neutral pieces with bold items. For example, try a black skirt with a patterned top for a chic contrast.",
+        "A striped shirt goes well with solid colored pants, or you can pair it with a denim jacket for a stylish look.",
+        "When pairing colors, always balance bold hues with neutral tones. A bright red top can be paired with white or beige pants."
+      ]
+    },
+    {
+      "tag": "fashion_trends",
+      "patterns": [
+        "What are the latest fashion trends?",
+        "Tell me about the current fashion trends.",
+        "What’s trending in fashion right now?",
+        "What are the fashion trends for summer?"
+      ],
+      "responses": [
+        "Some of the current trends include oversized blazers, monochrome outfits, and bright colors like neon green and hot pink.",
+        "For summer, expect to see a lot of flowy dresses, pastel colors, and relaxed fits in clothing.",
+        "Some hot trends right now are chunky sneakers, wide-leg pants, and leather accessories."
+      ]
+    },
+    {
+      "tag": "fashion_advice",
+      "patterns": [
+        "I need fashion advice.",
+        "Can you give me some fashion tips?",
+        "How should I dress for a party?"
+      ],
+      "responses": [
+        "For a party, I’d recommend a stylish dress or a nice blouse with a skirt or trousers. Don’t forget to accessorize!",
+        "If you’re unsure about your outfit, a safe bet is to wear something that makes you feel confident and comfortable. You can never go wrong with that."
+      ]
+    }
+  ]
+}
